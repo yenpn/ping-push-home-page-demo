@@ -177,14 +177,8 @@
    transition: all 500ms ease;
  }
 
- h1,
- h2,
- h3,
- h4,
- h5,
- h6,
  p {
-  font-family: 'Oswald'!important;
+   font-family: 'Oswald' !important;
  }
 
  h1,
@@ -195,6 +189,7 @@
  h6 {
    position: relative;
    font-weight: 400;
+   font-family: sans-serif;
    color: #111111;
    margin: 0px;
    transition: all 500ms ease;
@@ -17400,4 +17395,8 @@
      height: 50%;
      width: 50%;
    }
+ }
+
+ .dropdown-child {
+   left: 25px;
  }

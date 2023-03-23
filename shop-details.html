@@ -230,12 +230,16 @@
                                                     <li><a href="shop-details.html">Thiết bị trung tâm</a></li>
                                                     <li class="dropdown"><a href="">Ứng dụng</a>
                                                         <ul>
-                                                            <li class="dropdown-child"><a href="gtppcam.html">Giới thiệu</a>
+                                                            <li class="dropdown-child"><a href="gtppcam.html">Giới
+                                                                    thiệu</a>
                                                             </li>
                                                             <!-- <li><a href="">Đăng ký</a></li> -->
-                                                            <li class="dropdown-child"><a href="caidat.pdf" target="_blank">Cài đặt</a></li>
-                                                            <li class="dropdown-child"><a href="Ketnoi.pdf" target="_blank">Kết nối</a></li>
-                                                            <li class="dropdown-child"><a href="" target="_blank">Kiểm tra</a></li>
+                                                            <li class="dropdown-child"><a href="caidat.pdf"
+                                                                    target="_blank">Cài đặt</a></li>
+                                                            <li class="dropdown-child"><a href="Ketnoi.pdf"
+                                                                    target="_blank">Kết nối</a></li>
+                                                            <li class="dropdown-child"><a href="" target="_blank">Kiểm
+                                                                    tra</a></li>
                                                         </ul>
                                                     </li>
                                                     <!-- <li><a href="cart.html">Shopping Cart</a></li>
@@ -865,13 +869,13 @@
                             <div id="slider">
                                 <ul id="img">
                                     <li>
-                                        <img class="img-feature" src="assets/images/chudong1.png" alt="">
+                                        <img src="assets/images/chudong1.png" alt="">
                                     </li>
                                     <li>
-                                        <img class="img-feature" src="assets/images/chudong2.png" alt="">
+                                        <img src="assets/images/chudong2.png" alt="">
                                     </li>
                                     <li>
-                                        <img class="img-feature" src="assets/images/chudong3.png" alt="">
+                                        <img src="assets/images/chudong3.png" alt="">
                                     </li>
                                 </ul>
                                 <img class="img-control prev" id="prev" src="assets/images/chevron-left-solid (1).svg"
@@ -1369,11 +1373,6 @@
             filter: invert(0%) sepia(3%) saturate(11%) hue-rotate(55deg) brightness(99%) contrast(104%);
         }
 
-        .img-feature {
-            width: 100%;
-            height: 100%;
-        }
-
         .list-image div {
             flex: 1;
         }
@@ -1388,16 +1387,22 @@
             color: #fff;
         }
 
-        .img-control prev {
+        /* .img-control prev {
             position: absolute;
-            color: #fff;
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg) brightness(103%) contrast(101%);
         }
+
+        .img-control next {
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg) brightness(103%) contrast(101%);
+        } */
 
         .prev {
             position: absolute;
             left: 0;
             top: 50%;
             transform: translateY(-50%);
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg) brightness(103%) contrast(101%);
+            
         }
 
         .next {
@@ -1405,6 +1410,7 @@
             right: 0;
             top: 50%;
             transform: translateY(-50%);
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg) brightness(103%) contrast(101%);
         }
 
         .wrap-application {
