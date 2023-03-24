@@ -225,10 +225,10 @@
                                                     <li><a href="service-details-6.html">Nhận diện biển số xe</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="dropdown"><a href="shop-details.html">Sản Phẩm</a>
+                                            <li class="dropdown"><a class="active" href="#">Sản Phẩm</a>
                                                 <ul>
-                                                    <li><a href="shop-details.html">Thiết bị trung tâm</a></li>
-                                                    <li class="dropdown"><a href="">Ứng dụng</a>
+                                                    <li><a class="active" href="shop-details.html">Thiết bị trung tâm</a></li>
+                                                    <li class="dropdown"><a href="#">Ứng dụng</a>
                                                         <ul>
                                                             <li class="dropdown-child"><a href="gtppcam.html">Giới
                                                                     thiệu</a>
@@ -334,7 +334,7 @@
                         <li><a href="mailto:info@example.com">contact@pingpush.vn</a></li>
                     </ul>
                 </div>
-                <div class="social-links">
+                <!-- <div class="social-links">
                     <ul class="clearfix">
                         <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
                         <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
@@ -342,7 +342,7 @@
                         <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
                         <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
                     </ul>
-                </div>
+                </div> -->
             </nav>
         </div>
         <!-- End Mobile Menu -->
@@ -1528,6 +1528,33 @@
             }
         }
 
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .single-features {
+                margin-left: 15px;
+                margin-right: 15px;
+                margin-bottom: 15px;
+                padding: 19px;
+            }
+
+            .table-lauch {
+                padding-bottom: 30px;
+            }
+
+            .single-industries:hover {
+                transform: scale(1.1);
+                background-color: #7dbc26;
+                color: #fff;
+            }
+
+            .single-industries:hover .correction-img {
+                filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(279deg) brightness(102%) contrast(103%);
+            }
+
+            .wrap-data {
+                left: 215px;
+            }
+        }
+
         @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
             .single-features {
                 margin-left: 15px;
@@ -1575,10 +1602,6 @@
 
             .single-industries:hover .correction-img {
                 filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(279deg) brightness(102%) contrast(103%);
-            }
-
-            .wrap-data {
-                left: 190px;
             }
         }
 

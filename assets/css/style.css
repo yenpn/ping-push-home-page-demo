@@ -17400,3 +17400,8 @@
  .dropdown-child {
    left: 25px;
  }
+
+ .nav ul li a:hover,
+ nav ul li a.active {
+   color: #75b221 !important;
+ }

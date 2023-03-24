@@ -43,7 +43,7 @@
 			}
 		})
 		// if (!isDropdonBtn.length) {
-			// $('.main-header .navigation li.dropdown').append('<div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>');
+		// $('.main-header .navigation li.dropdown').append('<div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>');
 		// }
 	}
 
@@ -697,3 +697,4 @@
 
 
 })(window.jQuery);
+

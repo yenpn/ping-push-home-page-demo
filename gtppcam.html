@@ -225,12 +225,12 @@
                                                     <li><a href="service-details-6.html">Nhận diện biển số xe</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="dropdown"><a href="shop-details.html">Sản Phẩm</a>
+                                            <li class="dropdown"><a href="#">Sản Phẩm</a>
                                                 <ul>
                                                     <li><a href="shop-details.html">Thiết bị trung tâm</a></li>
-                                                    <li class="dropdown"><a href="">Ứng dụng</a>
+                                                    <li class="dropdown"><a class="active" href="#">Ứng dụng</a>
                                                         <ul>
-                                                            <li><a href="gtppcam.html">Giới thiệu</a>
+                                                            <li><a class="active" href="gtppcam.html">Giới thiệu</a>
                                                             </li>
                                                             <!-- <li><a href="">Đăng ký</a></li> -->
                                                             <li><a href="caidat.pdf" target="_blank">Cài đặt</a></li>
@@ -330,7 +330,7 @@
                         <li><a href="mailto:info@example.com">contact@pingpush.vn</a></li>
                     </ul>
                 </div>
-                <div class="social-links">
+                <!-- <div class="social-links">
                     <ul class="clearfix">
                         <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
                         <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
@@ -338,7 +338,7 @@
                         <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
                         <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
                     </ul>
-                </div>
+                </div> -->
             </nav>
         </div>
         <!-- End Mobile Menu -->
@@ -376,7 +376,8 @@
                                         <img class="correction-img" src="assets/images/icons/machine-learning.png"
                                             alt="">
                                         <h3 class="letter-color">Giám sát 24/7</h3>
-                                        <span class="wrap-font">Xem trực tiếp hoặc phát lại video ngay trên đầu ghi của bạn, dữ liệu được
+                                        <span class="wrap-font">Xem trực tiếp hoặc phát lại video ngay trên đầu ghi của
+                                            bạn, dữ liệu được
                                             bảo
                                             mật</span>
                                     </div>
@@ -386,7 +387,8 @@
                                         <img class="correction-img"
                                             src="assets/images/icons/001-artificial-intelligence.png" alt="">
                                         <h3 class="letter-color">Dễ dàng truy cập:</h3>
-                                        <span class="wrap-font">Camera được chia theo chủng loại, theo khu vực, thuận tiện cho việc quản
+                                        <span class="wrap-font">Camera được chia theo chủng loại, theo khu vực, thuận
+                                            tiện cho việc quản
                                             lý</span>
                                     </div>
                                 </div>
@@ -397,7 +399,8 @@
                                                 alt="">
                                         </div>
                                         <h3 class="letter-color">Thông báo khi có sự cố</h3>
-                                        <span class="wrap-font">Bạn sẽ được thông báo khi có sự cố về đường truyền mạng qua điện thoại
+                                        <span class="wrap-font">Bạn sẽ được thông báo khi có sự cố về đường truyền mạng
+                                            qua điện thoại
                                             (đối
                                             với camera được sự dụng cùng PPBox)</span>
                                     </div>
@@ -418,7 +421,8 @@
                                                 alt="">
                                         </div>
                                         <h3 class="letter-color">Hoàn toàn miễn phí</h3>
-                                        <span class="wrap-font">PPCam cho phép bạn quản lý lên đến 20 camera miễn phí</span>
+                                        <span class="wrap-font">PPCam cho phép bạn quản lý lên đến 20 camera miễn
+                                            phí</span>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12 text-justify">
@@ -428,7 +432,8 @@
                                                 alt="">
                                         </div>
                                         <h3 class="letter-color">Dễ dàng truy cập</h3>
-                                        <span class="wrap-font">Camera được chia theo chủng loại , theo khu vực, thuận tiện cho việc quản
+                                        <span class="wrap-font">Camera được chia theo chủng loại , theo khu vực, thuận
+                                            tiện cho việc quản
                                             lý</span>
                                     </div>
                                 </div>
@@ -438,7 +443,8 @@
                                             <img class="correction-img" src="assets/images/icons/001-hacker.png" alt="">
                                         </div>
                                         <h3 class="letter-color">Hỗ trợ PPBox</h3>
-                                        <span class="wrap-font">Thiết lập và trải nghiệm các tính năng AI tiên tiến ngay trên PPCam: dựng
+                                        <span class="wrap-font">Thiết lập và trải nghiệm các tính năng AI tiên tiến ngay
+                                            trên PPCam: dựng
                                             hàng
                                             rào an ninh ảo, cài đặt thời gian thông báo, lựa chọn các tính năng AI cao
                                             cấp</span>
@@ -833,6 +839,46 @@
             width: 100%;
             height: 100%;
             padding-top: 100px;
+        }
+
+        @media (min-width: 320px) and (max-width: 480px) {
+            .single-industries {
+                border-radius: 0;
+            }
+
+            .single-industries.right-item {
+                border-radius: 0;
+            }
+        }
+
+        @media (min-width: 481px) and (max-width: 767px) {
+            .single-industries {
+                border-radius: 0;
+            }
+
+            .single-industries.right-item {
+                border-radius: 0;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+            .single-industries {
+                border-radius: 0;
+            }
+
+            .single-industries.right-item {
+                border-radius: 0;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .single-industries {
+                border-radius: 0;
+            }
+
+            .single-industries.right-item {
+                border-radius: 0;
+            }
         }
     </style>
 </body><!-- End of .page_wrapper -->
